@@ -1,0 +1,7 @@
+{
+  "student_id": "66114540784",
+  "name": "สหรัฐ เวียงแก้ว",
+  "llm_model": "qwen2.5-coder:7b",
+  "embed_model": "nomic-embed-text",
+  "notes": ""
+}
