@@ -141,5 +141,5 @@ def search(chunks: list[Chunk], query_text: str, query_vector: list[float] | Non
     scored.sort(key=lambda item: item[1], reverse=True)
     if scored and scored[0][1] > 0.5:
         max_s = scored[0][1]
-        scored = [item for item in scored if item[1] >= max_s * 0.55 or item == scored[0]]
+        scored = [item for item in scored if item[1] >= max_s * 0.70 or item == scored[0]]
     return scored[:top_k]
